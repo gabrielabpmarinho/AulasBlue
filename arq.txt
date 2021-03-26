@@ -1,0 +1,19 @@
+
+@echo ( escreve um nome)
+echo off esconde os comandos e a palavra echo
+mv - nome do arquivo de onde sai para onde vai
+type - + nome do arquivo, mostra oq esta escrito no arquivo.
+ls - lista o q tem dentro do arqyuivo
+dir - mostra os diretorios da pasta.
+cd.. - volta um diretorio antes
+rm - remove o arquivo
+mkdir- cria pasta
+touch - cria arquivo
+rmdir - apaga pasta
+echo cls > script.bat (crio um comando cls no arquivo script.bat)type
+>>
+
+set /p criar="quer criar uma nova pasta?"
+if %criar%=="s" (
+mkdir pastateste
+)
